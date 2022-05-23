@@ -7,27 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3FEC0D4127EAF5090029259E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC0D4027EAF5090029259E /* AppDelegate.swift */; };
-		3FEC0D4327EAF5090029259E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC0D4227EAF5090029259E /* SceneDelegate.swift */; };
-		3FEC0D4527EAF5090029259E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FEC0D4427EAF5090029259E /* ViewController.swift */; };
-		3FEC0D4827EAF5090029259E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC0D4627EAF5090029259E /* Main.storyboard */; };
-		3FEC0D4A27EAF50A0029259E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC0D4927EAF50A0029259E /* Assets.xcassets */; };
-		3FEC0D4D27EAF50A0029259E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FEC0D4B27EAF50A0029259E /* LaunchScreen.storyboard */; };
+		3FED674127EAF4EC00DBF497 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED674027EAF4EC00DBF497 /* AppDelegate.swift */; };
+		3FED674327EAF4EC00DBF497 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED674227EAF4EC00DBF497 /* SceneDelegate.swift */; };
+		3FED674527EAF4EC00DBF497 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FED674427EAF4EC00DBF497 /* ViewController.swift */; };
+		3FED674827EAF4EC00DBF497 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FED674627EAF4EC00DBF497 /* Main.storyboard */; };
+		3FED674A27EAF4EE00DBF497 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3FED674927EAF4EE00DBF497 /* Assets.xcassets */; };
+		3FED674D27EAF4EE00DBF497 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3FED674B27EAF4EE00DBF497 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3FEC0D3D27EAF5090029259E /* iTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3FEC0D4027EAF5090029259E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3FEC0D4227EAF5090029259E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3FEC0D4427EAF5090029259E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		3FEC0D4727EAF5090029259E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		3FEC0D4927EAF50A0029259E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		3FEC0D4C27EAF50A0029259E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		3FEC0D4E27EAF50A0029259E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3FED673D27EAF4EC00DBF497 /* iTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3FED674027EAF4EC00DBF497 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3FED674227EAF4EC00DBF497 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		3FED674427EAF4EC00DBF497 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3FED674727EAF4EC00DBF497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3FED674927EAF4EE00DBF497 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3FED674C27EAF4EE00DBF497 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3FED674E27EAF4EE00DBF497 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		3FEC0D3A27EAF5090029259E /* Frameworks */ = {
+		3FED673A27EAF4EC00DBF497 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,32 +37,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		3FEC0D3427EAF5090029259E = {
+		3FED673427EAF4EC00DBF497 = {
 			isa = PBXGroup;
 			children = (
-				3FEC0D3F27EAF5090029259E /* iTimer */,
-				3FEC0D3E27EAF5090029259E /* Products */,
+				3FED673F27EAF4EC00DBF497 /* iTimer */,
+				3FED673E27EAF4EC00DBF497 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		3FEC0D3E27EAF5090029259E /* Products */ = {
+		3FED673E27EAF4EC00DBF497 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3FEC0D3D27EAF5090029259E /* iTimer.app */,
+				3FED673D27EAF4EC00DBF497 /* iTimer.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3FEC0D3F27EAF5090029259E /* iTimer */ = {
+		3FED673F27EAF4EC00DBF497 /* iTimer */ = {
 			isa = PBXGroup;
 			children = (
-				3FEC0D4027EAF5090029259E /* AppDelegate.swift */,
-				3FEC0D4227EAF5090029259E /* SceneDelegate.swift */,
-				3FEC0D4427EAF5090029259E /* ViewController.swift */,
-				3FEC0D4627EAF5090029259E /* Main.storyboard */,
-				3FEC0D4927EAF50A0029259E /* Assets.xcassets */,
-				3FEC0D4B27EAF50A0029259E /* LaunchScreen.storyboard */,
-				3FEC0D4E27EAF50A0029259E /* Info.plist */,
+				3FED674027EAF4EC00DBF497 /* AppDelegate.swift */,
+				3FED674227EAF4EC00DBF497 /* SceneDelegate.swift */,
+				3FED674427EAF4EC00DBF497 /* ViewController.swift */,
+				3FED674627EAF4EC00DBF497 /* Main.storyboard */,
+				3FED674927EAF4EE00DBF497 /* Assets.xcassets */,
+				3FED674B27EAF4EE00DBF497 /* LaunchScreen.storyboard */,
+				3FED674E27EAF4EE00DBF497 /* Info.plist */,
 			);
 			path = iTimer;
 			sourceTree = "<group>";
@@ -70,13 +70,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3FEC0D3C27EAF5090029259E /* iTimer */ = {
+		3FED673C27EAF4EC00DBF497 /* iTimer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3FEC0D5127EAF50A0029259E /* Build configuration list for PBXNativeTarget "iTimer" */;
+			buildConfigurationList = 3FED675127EAF4EE00DBF497 /* Build configuration list for PBXNativeTarget "iTimer" */;
 			buildPhases = (
-				3FEC0D3927EAF5090029259E /* Sources */,
-				3FEC0D3A27EAF5090029259E /* Frameworks */,
-				3FEC0D3B27EAF5090029259E /* Resources */,
+				3FED673927EAF4EC00DBF497 /* Sources */,
+				3FED673A27EAF4EC00DBF497 /* Frameworks */,
+				3FED673B27EAF4EC00DBF497 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -84,25 +84,25 @@
 			);
 			name = iTimer;
 			productName = iTimer;
-			productReference = 3FEC0D3D27EAF5090029259E /* iTimer.app */;
+			productReference = 3FED673D27EAF4EC00DBF497 /* iTimer.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		3FEC0D3527EAF5090029259E /* Project object */ = {
+		3FED673527EAF4EC00DBF497 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
-					3FEC0D3C27EAF5090029259E = {
+					3FED673C27EAF4EC00DBF497 = {
 						CreatedOnToolsVersion = 13.1;
 					};
 				};
 			};
-			buildConfigurationList = 3FEC0D3827EAF5090029259E /* Build configuration list for PBXProject "iTimer" */;
+			buildConfigurationList = 3FED673827EAF4EC00DBF497 /* Build configuration list for PBXProject "iTimer" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -110,55 +110,55 @@
 				en,
 				Base,
 			);
-			mainGroup = 3FEC0D3427EAF5090029259E;
-			productRefGroup = 3FEC0D3E27EAF5090029259E /* Products */;
+			mainGroup = 3FED673427EAF4EC00DBF497;
+			productRefGroup = 3FED673E27EAF4EC00DBF497 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3FEC0D3C27EAF5090029259E /* iTimer */,
+				3FED673C27EAF4EC00DBF497 /* iTimer */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		3FEC0D3B27EAF5090029259E /* Resources */ = {
+		3FED673B27EAF4EC00DBF497 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FEC0D4D27EAF50A0029259E /* LaunchScreen.storyboard in Resources */,
-				3FEC0D4A27EAF50A0029259E /* Assets.xcassets in Resources */,
-				3FEC0D4827EAF5090029259E /* Main.storyboard in Resources */,
+				3FED674D27EAF4EE00DBF497 /* LaunchScreen.storyboard in Resources */,
+				3FED674A27EAF4EE00DBF497 /* Assets.xcassets in Resources */,
+				3FED674827EAF4EC00DBF497 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		3FEC0D3927EAF5090029259E /* Sources */ = {
+		3FED673927EAF4EC00DBF497 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3FEC0D4527EAF5090029259E /* ViewController.swift in Sources */,
-				3FEC0D4127EAF5090029259E /* AppDelegate.swift in Sources */,
-				3FEC0D4327EAF5090029259E /* SceneDelegate.swift in Sources */,
+				3FED674527EAF4EC00DBF497 /* ViewController.swift in Sources */,
+				3FED674127EAF4EC00DBF497 /* AppDelegate.swift in Sources */,
+				3FED674327EAF4EC00DBF497 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		3FEC0D4627EAF5090029259E /* Main.storyboard */ = {
+		3FED674627EAF4EC00DBF497 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FEC0D4727EAF5090029259E /* Base */,
+				3FED674727EAF4EC00DBF497 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		3FEC0D4B27EAF50A0029259E /* LaunchScreen.storyboard */ = {
+		3FED674B27EAF4EE00DBF497 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				3FEC0D4C27EAF50A0029259E /* Base */,
+				3FED674C27EAF4EE00DBF497 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -166,7 +166,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		3FEC0D4F27EAF50A0029259E /* Debug */ = {
+		3FED674F27EAF4EE00DBF497 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -227,7 +227,7 @@
 			};
 			name = Debug;
 		};
-		3FEC0D5027EAF50A0029259E /* Release */ = {
+		3FED675027EAF4EE00DBF497 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -282,7 +282,7 @@
 			};
 			name = Release;
 		};
-		3FEC0D5227EAF50A0029259E /* Debug */ = {
+		3FED675227EAF4EE00DBF497 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -294,16 +294,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "denezhkin-bogomol.iTimer";
+				PRODUCT_BUNDLE_IDENTIFIER = "denezhkin-bogomolov.iTimer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -311,7 +309,7 @@
 			};
 			name = Debug;
 		};
-		3FEC0D5327EAF50A0029259E /* Release */ = {
+		3FED675327EAF4EE00DBF497 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -323,16 +321,14 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "denezhkin-bogomol.iTimer";
+				PRODUCT_BUNDLE_IDENTIFIER = "denezhkin-bogomolov.iTimer";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -343,25 +339,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3FEC0D3827EAF5090029259E /* Build configuration list for PBXProject "iTimer" */ = {
+		3FED673827EAF4EC00DBF497 /* Build configuration list for PBXProject "iTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FEC0D4F27EAF50A0029259E /* Debug */,
-				3FEC0D5027EAF50A0029259E /* Release */,
+				3FED674F27EAF4EE00DBF497 /* Debug */,
+				3FED675027EAF4EE00DBF497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3FEC0D5127EAF50A0029259E /* Build configuration list for PBXNativeTarget "iTimer" */ = {
+		3FED675127EAF4EE00DBF497 /* Build configuration list for PBXNativeTarget "iTimer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3FEC0D5227EAF50A0029259E /* Debug */,
-				3FEC0D5327EAF50A0029259E /* Release */,
+				3FED675227EAF4EE00DBF497 /* Debug */,
+				3FED675327EAF4EE00DBF497 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 3FEC0D3527EAF5090029259E /* Project object */;
+	rootObject = 3FED673527EAF4EC00DBF497 /* Project object */;
 }

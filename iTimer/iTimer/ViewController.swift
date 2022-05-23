@@ -7,56 +7,59 @@
 
 import UIKit
 
-class ViewController: UIViewController {
-
-    @IBOutlet weak var TimerLabel: UILabel!
-    @IBOutlet weak var startStopButton: UIButton!
-    @IBOutlet weak var resetButton: UIButton!
+class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {
     
-    var timer:Timer = Timer ()
+    @IBOutlet weak var TimerLabel: UILabel!
+    @IBOutlet weak var StartStopButton: UIButton!
+    @IBOutlet weak var TableLap: UITableView!
+    @IBOutlet weak var LapResetButton: UIButton!
+    
+    
+    
+    var timer:Timer = Timer()
     var count:Int = 0
     var timerCounting:Bool = false
+    var lapArray: [String] = []
     
-    
-    override func viewDidLoad()
+    @IBAction func LapResetTapped(_ sender: Any)
     {
-        super.viewDidLoad()
-    }
- 
-    
-    @IBAction func resetTapped(_ sender: Any)
-    {
-        let alert = UIAlertController(title: "Сбросить таймер?", message: "Вы уверены?", preferredStyle: .alert)
-        alert.addAction(UIAlertAction(title: "Отмена", style: .cancel, handler: { (_) in
-        }))
-        
-        alert.addAction(UIAlertAction(title: "Да", style: .default, handler: { (_) in
+        if(timerCounting)
+        {
+            lapArray.append(TimerLabel.text!)
+            TableLap.reloadData()
+        }
+        else
+        {
+            lapArray.removeAll()
+            TableLap.reloadData()
+            timerCounting = false
+            timer.invalidate()
             self.count = 0
-            self.timer.invalidate()
-            self.TimerLabel.text = self.makeTimeString(minutes: 0, seconds: 0)
-            self.startStopButton.setTitle("  Start", for: .normal)
-        }))
-        
-        self.present (alert, animated: true, completion: nil)
-                                      
+            TimerLabel.text = "00:00"
+        }
     }
     
-    @IBAction func startStopTapped(_ sender: Any)
+    @IBAction func startTapped(_ sender: Any)
     {
         if(timerCounting)
         {
             timerCounting = false
             timer.invalidate()
-            startStopButton.setTitle("  Start", for: .normal)
+            StartStopButton.setTitle(" Start", for: .normal)
+            LapResetButton.setTitle(" Reset", for: .normal)
+            
         }
         else
-        {
-            timerCounting = true
-            startStopButton.setTitle("  Stop", for: .normal)
-            timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(timerCounter), userInfo: nil, repeats: true)
-        }
+       {
+           
+        timerCounting = true
+        StartStopButton.setTitle(" Stop", for: .normal)
+           LapResetButton.setTitle(" Lap", for: .normal)
+           timer = Timer.scheduledTimer(timeInterval: 1, target: self, selector:
+                                            #selector(timerCounter), userInfo: nil, repeats: true)
+       }
     }
-    @objc func timerCounter() -> Void
+     @objc func timerCounter() -> Void
     {
         count = count + 1
         let time = secondsToMinutesSeconds(seconds: count)
@@ -65,21 +68,34 @@ class ViewController: UIViewController {
     }
     func secondsToMinutesSeconds(seconds: Int) -> (Int, Int)
     {
-        return  ((seconds % 3600 / 60),((seconds % 3600) % 60))
+        return (((seconds % 3600)/60),((seconds % 3600) % 60))
     }
     func makeTimeString(minutes: Int, seconds: Int) -> String
     {
-        var timeString = ""
+       var timeString = ""
         timeString += String(format: "%02d", minutes)
-        timeString += " : "
+        timeString += ":"
         timeString += String(format: "%02d", seconds)
         return timeString
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+  
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        TableLap.delegate = self
+        TableLap.dataSource = self
+    
     }
     
-}
+    func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        return lapArray.count
+    }
+    
+    func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+        let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
+        cell.textLabel!.text = lapArray[indexPath.row]
+        return cell
+    }
+    
+  }
 
